@@ -3,6 +3,15 @@
 	"settings": {
 		"appearanceTools": true,
 		"color": {
+			"background": true,
+			"custom": true,
+			"customDuotone": true,
+			"customGradient": true,
+			"defaultDuotone": true,
+			"defaultGradients": true,
+			"defaultPalette": true,
+			"duotone": [],
+			"gradients": [],
 			"palette": [
 				{
 					"color": "#7a8769",
@@ -34,13 +43,27 @@
 					"name": "txt-2",
 					"slug": "custom-txt-2"
 				}
-			]
+			],
+			"text": true
 		},
 		"layout": {
 			"contentSize": "1160px",
 			"wideSize": "1440px"
 		},
+		"shadow": {
+			"defaultPresets": true,
+			"presets": []
+		},
 		"spacing": {
+			"customSpacingSize": true,
+			"spacingScale": {
+				"increment": 1.5,
+				"mediumStep": 1.5,
+				"operator": "*",
+				"steps": 7,
+				"unit": "rem"
+			},
+			"spacingSizes": [],
 			"units": [
 				"%",
 				"px",
@@ -51,6 +74,8 @@
 			]
 		},
 		"typography": {
+			"customFontSize": true,
+			"dropCap": true,
 			"fontFamilies": [
 				{
 					"fontFace": [
@@ -122,7 +147,13 @@
 					"fontFamily": "Montserrat",
 					"slug": "montserrat"
 				}
-			]
+			],
+			"fontSizes": [],
+			"fontStyle": true,
+			"fontWeight": true,
+			"letterSpacing": true,
+			"textDecoration": true,
+			"textTransform": true
 		},
 		"useRootPaddingAwareAlignments": true
 	},
@@ -135,7 +166,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--montserrat)",
 					"fontStyle": "normal",
-					"fontWeight": "500"
+					"fontWeight": "400"
 				}
 			},
 			"caption": {
@@ -145,7 +176,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--montserrat)",
 					"fontStyle": "normal",
-					"fontWeight": "500"
+					"fontWeight": "400"
 				}
 			},
 			"h1": {
@@ -185,7 +216,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--montserrat)",
 					"fontStyle": "normal",
-					"fontWeight": "500"
+					"fontWeight": "400"
 				}
 			},
 			"link": {
@@ -195,16 +226,19 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--montserrat)",
 					"fontStyle": "normal",
-					"fontWeight": "500",
+					"fontWeight": "400",
 					"textDecoration": "none"
 				}
 			}
+		},
+		"spacing": {
+			"blockGap": "0px"
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--montserrat)",
 			"fontSize": "16px",
 			"fontStyle": "normal",
-			"fontWeight": "500"
+			"fontWeight": "400"
 		}
 	},
 	"templateParts": [
