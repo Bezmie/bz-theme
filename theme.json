@@ -1,5 +1,4 @@
 {
-	"$schema": "https://schemas.wp.org/wp/6.3/theme.json",
 	"settings": {
 		"appearanceTools": true,
 		"color": {
@@ -247,5 +246,6 @@
 			"name": "footer"
 		}
 	],
-	"version": 2
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.3/theme.json"
 }
