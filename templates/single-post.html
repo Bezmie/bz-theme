@@ -1,9 +1,45 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
 <!-- wp:group {"layout":{"type":"constrained","justifyContent":"center"}} -->
-<div class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained","justifyContent":"left","wideSize":"60%"}} -->
-<div class="wp-block-group"><!-- wp:post-content /--></div>
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained","justifyContent":"left","wideSize":"70%"}} -->
+<div class="wp-block-group"><!-- wp:post-title {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-large"} /-->
+
+<!-- wp:post-date /-->
+
+<!-- wp:post-content /--></div>
 <!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-large"} -->
+<h2 class="wp-block-heading has-x-large-font-size" style="text-transform:uppercase">Смотрите также</h2>
+<!-- /wp:heading -->
+
+<!-- wp:query {"queryId":3,"query":{"perPage":"30","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"rand","author":"","search":"","exclude":[],"sticky":"","inherit":false,"cbb":{"include":"","metaQuery":[],"ignoreCurrentPost":null,"queryRelatedPosts":null,"sorting":[],"orderbyFromQueryString":null},"meta_query":[],"parents":[]},"namespace":"advanced-query-loop"} -->
+<div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"default","columnCount":3},"boldblocks":{"grid":{"columns":{"lg":{"value":"none","inherit":null},"md":{"inherit":"lg"},"sm":{"inherit":null}},"gap":{"lg":{"value":{"row":"1rem","column":"1rem"},"inherit":null},"md":{"inherit":"lg"},"sm":{"inherit":"lg"}}},"carousel":{"speed":300,"effect":"slide","effectSettings":[],"loopType":"infinite","autoplay":{"enable":false,"delay":3000},"slidesPerView":{"auto":false,"value":"3"},"spaceBetween":30,"enableResponsive":false,"breakpoints":{"lg":{"value":{"slidesPerView":4,"spaceBetween":0},"inherit":null},"md":{"inherit":"lg"},"sm":{"inherit":"lg"}},"pagination":{"enable":false,"size":"12px","spacing":"10px","color":"","inactiveColor":"","opacity":0.299999999999999988897769753748434595763683319091796875,"dynamicBullets":true,"horizontalGap":"5px"},"navigation":{"enable":true,"size":"44px","spacing":"10px","color":{"value":"#b99d74","slug":"custom-base-2"}},"scrollbar":{"enable":false,"trackSize":"5px","draggable":true,"hide":false,"snapOnRelease":true,"trackColor":"","sliderColor":""}},"layout":{"type":"carousel"}}} -->
+<!-- wp:post-featured-image {"style":{"border":{"radius":"5px"}}} /-->
+
+<!-- wp:post-date /-->
+
+<!-- wp:post-title {"isLink":true,"style":{"typography":{"textTransform":"uppercase"}}} /-->
+
+<!-- wp:post-excerpt {"moreText":""} /-->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:read-more {"content":"Подробнее","textColor":"custom-base-2"} /-->
+
+<!-- wp:outermost/icon-block {"iconName":"","width":"32px"} -->
+<div class="wp-block-outermost-icon-block"><div class="icon-container" style="width:32px"><svg width="35" height="11" viewBox="0 0 35 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M33.5 5.5L28.5 0.5M33.5 5.5L28.5 10.5M33.5 5.5H1" stroke="#B99D74" stroke-width="0.923077" stroke-linecap="round"></path></svg></div></div>
+<!-- /wp:outermost/icon-block --></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:query-no-results -->
+<!-- wp:paragraph {"placeholder":"Добавьте текст или блоки, которые будут отображаться, когда запрос не возвращает результатов."} -->
+<p></p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query --></div>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

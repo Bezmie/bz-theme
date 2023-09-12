@@ -13,3 +13,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: bz
 Tags: 
 */
+
+
+a:hover {
+    text-shadow: 0 0 1px currentColor;
+    transition: all 0.2s ease-out;
+}
+
+hr.wp-block-separator {
+    border: none;
+    border-bottom: 1px solid;
+}    

@@ -1,7 +1,32 @@
 <!-- wp:template-part {"slug":"header"} /-->
 
-<!-- wp:group {"layout":{"inherit":true,"type":"constrained"}} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","orientation":"horizontal","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:woocommerce/filter-wrapper {"filterType":"price-filter","heading":"Фильтрация по цене"} -->
+<div class="wp-block-woocommerce-filter-wrapper"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Фильтрация по цене</h3>
+<!-- /wp:heading -->
+
+<!-- wp:woocommerce/price-filter {"heading":"","lock":{"remove":true}} -->
+<div class="wp-block-woocommerce-price-filter is-loading"><span aria-hidden="true" class="wc-block-product-categories__placeholder"></span></div>
+<!-- /wp:woocommerce/price-filter --></div>
+<!-- /wp:woocommerce/filter-wrapper -->
+
+<!-- wp:woocommerce/filter-wrapper {"filterType":"attribute-filter","heading":"Фильтрация по атрибутам"} -->
+<div class="wp-block-woocommerce-filter-wrapper"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Фильтрация по атрибутам</h3>
+<!-- /wp:heading -->
+
+<!-- wp:woocommerce/attribute-filter {"attributeId":1,"heading":"","lock":{"remove":true}} -->
+<div class="wp-block-woocommerce-attribute-filter is-loading"></div>
+<!-- /wp:woocommerce/attribute-filter --></div>
+<!-- /wp:woocommerce/filter-wrapper --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:woocommerce/store-notices /-->
 
 <!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"bottom":"1rem"}}},"className":"alignwide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"},"fontSize":"small"} -->
@@ -36,6 +61,7 @@
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 

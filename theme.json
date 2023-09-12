@@ -1,4 +1,5 @@
 {
+	"$schema": "https://schemas.wp.org/wp/6.3/theme.json",
 	"settings": {
 		"appearanceTools": true,
 		"color": {
@@ -135,6 +136,17 @@
 					"background": "var(--wp--preset--color--custom-base-2)"
 				}
 			},
+			"core/separator": {
+				"color": {
+					"background": "var(--wp--preset--color--white)"
+				},
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--60)",
+						"top": "var(--wp--preset--spacing--60)"
+					}
+				}
+			},
 			"woocommerce/breadcrumbs": {
 				"color": {
 					"text": "var(--wp--preset--color--custom-txt-2)"
@@ -246,6 +258,5 @@
 			"name": "footer"
 		}
 	],
-	"version": 2,
-	"$schema": "https://schemas.wp.org/wp/6.3/theme.json"
+	"version": 2
 }
