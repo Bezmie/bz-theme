@@ -23,4 +23,28 @@ a:hover {
 hr.wp-block-separator {
     border: none;
     border-bottom: 1px solid;
-}    
+}
+
+.home .bz-breadcrumbs {
+    margin: 0!important;
+}
+
+.home .entry-content {
+    margin-top: 0!important;
+}
+
+.bz-blog li:first-child {
+    grid-column: 1 / -1!important;
+    display: flex;
+    gap: 2rem;
+  }
+
+.bz-blog li:first-child img {
+    min-width: 764px;
+    max-height: 400px;
+}
+
+.bz-blog li:first-child figure {
+    margin-bottom: 0;
+}
+
